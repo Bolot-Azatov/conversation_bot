@@ -1,0 +1,10 @@
+telegram:
+  bot:
+    token: "${TELEGRAM_BOT_TOKEN}"
+    username: "${TELEGRAM_BOT_USERNAME:TalkingAndConversationBot}"
+
+groq:
+  api:
+    key: "${GROQ_API_KEY}"
+    url: "https://api.groq.com/openai/v1/chat/completions"
+    model: "${GROQ_MODEL:openai/gpt-oss-120b}"
